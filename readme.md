@@ -1,4 +1,4 @@
-# Simple Templates wrapper NodeJS
+# Simple template wrapper for NodeJS
 
 This small module is a wrapper for [John Resig's](http://ejohn.org/) simple template so you can use it comfortably in NodeJS. 
 
