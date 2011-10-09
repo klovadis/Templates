@@ -2,20 +2,10 @@
 
 This small module is a wrapper for [John Resig's](http://ejohn.org/) simple template solution so you can use it comfortably in NodeJS. 
 
-## Template syntax
+## Installation
 
-The syntax within your templates is simple and limited. Variables are replaced using `<%=VariableName%>` and you can throw in JavaScript code using `<% /* code here */ %>`:
+You only need the `index.js` file from the repository: Download it, save it anywhere and `require` it. You may want to rename the file to `templates.js` or something like that.
 
-    Replace foo: <%=foo%>
-    
-    JavaScript code: 
-        <% if (foo) { %>
-            foo is true.
-        <% } else { %>
-            foo is false.
-        <% } %>
-
-Of course this is against everything that you consider good practice, but it does allow quick and dirty / rapid development.
 
 ## Usage
 
@@ -62,6 +52,21 @@ Then there is an anti-patter which you can use to work even dirtier. It is an ap
     */ };
     
     var myTemplate = Template( myTemplateCode );
+    
+## Template syntax
+
+The syntax within your templates is simple and limited. Variables are replaced using `<%=VariableName%>` and you can throw in JavaScript code using `<% /* code here */ %>`:
+
+    Replace foo: <%=foo%>
+    
+    JavaScript code: 
+        <% if (foo) { %>
+            foo is true.
+        <% } else { %>
+            foo is false.
+        <% } %>
+
+Of course this is against everything that you consider good practice, but it does allow quick and dirty / rapid development.
     
 ## LICENSE
 
