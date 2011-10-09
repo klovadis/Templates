@@ -1,6 +1,6 @@
 # Simple template wrapper for NodeJS
 
-This small module is a wrapper for [John Resig's](http://ejohn.org/) simple template so you can use it comfortably in NodeJS. 
+This small module is a wrapper for [John Resig's](http://ejohn.org/) simple template solution so you can use it comfortably in NodeJS. 
 
 ## Template syntax
 
@@ -15,7 +15,7 @@ The syntax within your templates is simple and limited. Variables are replaced u
             foo is false.
         <% } %>
 
-Of course this is against everything that you have considered good practice, but it does allow quick and dirty rapid development.
+Of course this is against everything that you consider good practice, but it does allow quick and dirty / rapid development.
 
 ## Usage
 
